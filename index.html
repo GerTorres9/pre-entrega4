@@ -3,43 +3,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechCore Hardware | Simulador de Cotización y Compra (Pre-Entrega 3)</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!-- Script principal enrutado en el head con el atributo defer obligatorio -->
-    <script src="./js/main.js" defer></script>
+    <title>TechCore Hardware | Simulador de Stock y Cotización (Pre-Entrega 4: Arrays)</title>
+    <!-- Script principal enlazado en el head con el atributo defer obligatorio -->
+    <script src="main.js" defer></script>
 </head>
-<body>
-    <main class="contenedor-principal">
-        <section class="tarjeta-presentacion">
-            <span class="insignia-entrega">JavaScript · Pre-Entrega 3: Funciones e Integración de Lógica</span>
-            <h1>TechCore Hardware &amp; PC</h1>
-            <p class="descripcion">
-                Simulador interactivo de cotización y compra de componentes de hardware.
-                Toda la interacción se realiza mediante cuadros de diálogo (<code>prompt</code>, <code>confirm</code> y <code>alert</code>)
-                y el reporte detallado se emite en la <strong>Consola del Navegador</strong>.
-            </p>
-
-            <div class="bloque-catalogo">
-                <h2>Catálogo de Hardware Disponible</h2>
-                <ul>
-                    <li><strong>1.</strong> Procesador AMD Ryzen 7 7800X3D — <span>$8,400 MXN</span></li>
-                    <li><strong>2.</strong> Tarjeta Gráfica NVIDIA RTX 4070 Super 12GB — <span>$13,900 MXN</span></li>
-                    <li><strong>3.</strong> Memoria RAM Kit 32GB (2x16GB) DDR5 6000MHz — <span>$2,450 MXN</span></li>
-                    <li><strong>4.</strong> Unidad SSD NVMe M.2 Gen4 2TB — <span>$2,850 MXN</span></li>
-                    <li><strong>5.</strong> Monitor Gamer 27" QHD 180Hz IPS — <span>$5,600 MXN</span></li>
-                </ul>
-            </div>
-
-            <div class="bloque-instrucciones">
-                <h3>Instrucciones para revisar la entrega:</h3>
-                <ol>
-                    <li>Abre las Herramientas de Desarrollador (<strong>F12</strong> o <strong>Cmd + Option + J</strong> en Mac) en la pestaña <strong>Console</strong>.</li>
-                    <li>Sigue las instrucciones en los cuadros de diálogo <code>prompt</code> y <code>alert</code>.</li>
-                    <li>Usa los cupones de prueba <code>TECH10</code> (10%) o <code>GAMER15</code> (15%), o compra 3 o más componentes para obtener descuento automático por volumen.</li>
-                    <li>Si cerraste el simulador y deseas probarlo nuevamente, recarga la página (<strong>F5</strong>).</li>
-                </ol>
-            </div>
-        </section>
+<body style="font-family: system-ui, -apple-system, sans-serif; background-color: #0b0f19; color: #f1f5f9; padding: 2rem; line-height: 1.6;">
+    <main style="max-width: 720px; margin: 0 auto; background-color: #131b2e; border: 1px solid #263554; border-radius: 12px; padding: 2rem;">
+        <p style="color: #38bdf8; font-weight: 600; margin-bottom: 0.5rem;">
+            JavaScript · Pre-Entrega 4: Uso e interacción con Arrays
+        </p>
+        <h1 style="margin-top: 0;">TechCore Hardware &amp; PC</h1>
+        <p style="color: #94a3b8;">
+            Simulador interactivo de control de stock y cotización de componentes de hardware.
+            Integra ciclos (Módulo 2), funciones con parámetros y <code>return</code> (Módulo 3) y manipulación de Arrays (Módulo 4:
+            <code>push</code>, <code>unshift</code>, <code>pop</code>, <code>includes</code>, <code>indexOf</code>, <code>splice</code> y recorrido con <code>for...of</code>).
+        </p>
+        <hr style="border: none; border-top: 1px solid #263554; margin: 1.5rem 0;" />
+        <h2 style="font-size: 1.1rem; color: #38bdf8;">Instrucciones de uso:</h2>
+        <ol>
+            <li>Abre la <strong>Consola del Navegador</strong> (<strong>F12</strong> o <strong>Cmd + Option + J</strong> en Mac).</li>
+            <li>Sigue el hilo del simulador mediante los cuadros de diálogo <code>prompt</code>, <code>confirm</code> y <code>alert</code>.</li>
+            <li>Observa en la consola cada etapa: carga inicial del array, manipulación de extremos (<code>push</code>, <code>unshift</code>, <code>pop</code>), búsqueda con <code>includes</code> e <code>indexOf</code>, actualización por índice con <code>splice</code>, listado con <code>for...of</code> y cotización final.</li>
+        </ol>
     </main>
 </body>
 </html>
